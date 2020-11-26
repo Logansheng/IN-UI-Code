@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db791988-7afa-4559-8314-f5bbb66ad14c" name="默认的" comment="" />
+    <list default="true" id="db791988-7afa-4559-8314-f5bbb66ad14c" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Logan.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Logan2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,19 +26,38 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupnpm">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
   <component name="ProjectId" id="1klpNInbSjsAt7A9TvSvl8jsqtx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="inlay.hints" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="ts.external.directory.path" value="D:\webstorm\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\my-project\in-ui\src" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -37,6 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606284992198</updated>
       <workItem from="1606284993695" duration="5737000" />
+      <workItem from="1606355749301" duration="9008000" />
     </task>
     <servers />
   </component>
@@ -44,10 +76,14 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="924" y="343" key="FileChooserDialogImpl" timestamp="1606285383201">
+    <state x="1325" y="639" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606293463071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="924" y="343" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606285383201" />
+    <state x="1325" y="639" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606293463071" />
+    <state x="924" y="343" key="FileChooserDialogImpl" timestamp="1606359188767">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="924" y="343" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606359188767" />
     <state width="889" height="224" key="GridCell.Tab.0.bottom" timestamp="1606285003817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -64,17 +100,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="889" height="224" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606285003817" />
-    <state x="922" y="167" key="SettingsEditor" timestamp="1606287638124">
+    <state x="922" y="167" key="SettingsEditor" timestamp="1606359223307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="922" y="167" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606287638124" />
+    <state x="922" y="167" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606359223307" />
+    <state x="995" y="272" width="540" height="540" key="StructurePopup" timestamp="1606358923719">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="995" y="272" width="540" height="540" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1606358923719" />
     <state x="780" y="262" width="728" height="654" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1606286373442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="780" y="262" width="728" height="654" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606286373442" />
-    <state x="807" y="344" width="672" height="678" key="search.everywhere.popup" timestamp="1606287658810">
+    <state x="1140" y="397" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1606358919244">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="807" y="344" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606287658810" />
+    <state x="1140" y="397" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606358919244" />
+    <state x="807" y="344" width="672" height="678" key="search.everywhere.popup" timestamp="1606356695032">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="807" y="344" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606356695032" />
   </component>
 </project>
