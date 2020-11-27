@@ -26,7 +26,7 @@ name: "Topnav",
 
 <style lang="scss" scoped>
 .topnav {
-  background: pink;
+  background: #08ffc8;
   display: flex;
   justify-items: center;
   padding: 16px;
