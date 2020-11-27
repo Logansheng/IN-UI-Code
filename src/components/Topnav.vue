@@ -26,7 +26,7 @@ name: "Topnav",
 
 <style lang="scss" scoped>
 .topnav {
-  background: #08ffc8;
+  background: #ff6768;
   display: flex;
   justify-items: center;
   padding: 16px;
@@ -45,7 +45,7 @@ name: "Topnav",
     flex-wrap: nowrap;
     > li {
       margin: 0 1em;
-      color: #204969;
+      color: #fff7f7;
     }
   }
    img{

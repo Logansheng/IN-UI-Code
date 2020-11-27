@@ -29,13 +29,13 @@ name: "Home",
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: lightgreen;
-  color: #204969;
+  background: #263859;
+  color: #fff7f7;
   > .actions{
     padding: 8px 0;
     a {
       margin:0 8px;
-      background: #fff;
+      background: #6b778d;
       display: inline-block;
       $h: 28px;
       height: $h;

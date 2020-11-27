@@ -67,13 +67,14 @@ export default {
     flex-shrink: 0;
   }
   > main {
+    border: 1px solid red;
     flex-grow: 1;
     padding: 16px;
-    background: lightgreen;
+    background: #fff;
   }
 }
 aside {
-  background: lightblue;
+  background: #6b778d;
   width: 150px;
   position: fixed;
   top: 0;
@@ -83,18 +84,16 @@ aside {
 
   > h2 {
     margin-bottom: 4px;
+    color: #fff7f7;
+
   }
   > ol{
     > li{
       padding: 4px 0;
+      color: #fff7f7;
     }
   }
-  //@media (max-width: 500px) {
-  //  position: fixed;
-  //  top: 0;
-  //  left: 0;
-  //  padding: 70px 16px 16px;
-  //}
+
 }
 main {
   overflow: auto;

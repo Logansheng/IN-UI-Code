@@ -1,6 +1,6 @@
 <template>
 <div>
-  <Switch></Switch>
+  <Switch value="true" @input=""></Switch>
 </div>
 </template>
 
