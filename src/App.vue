@@ -8,7 +8,9 @@ export default {
   name: 'App',
   components: {},
   setup(){
-    const menuVisble = ref(false)
+    const width =document.documentElement.clientWidth
+    console.log(width)
+    const menuVisble = ref(width<=500?false:true)
     provide('xxx',menuVisble)
   }
 }

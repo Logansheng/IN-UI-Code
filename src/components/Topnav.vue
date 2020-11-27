@@ -5,7 +5,7 @@
       <li>菜单1</li>
       <li>菜单2</li>
     </ul>
-    <span class="toggleAside"><img src="../assets/列表.png"/></span>
+    <span class="toggleAside" @click="toggleMenu"><img src="../assets/列表.png"/></span>
   </div>
 </template>
 

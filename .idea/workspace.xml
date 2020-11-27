@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db791988-7afa-4559-8314-f5bbb66ad14c" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/列表.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +65,7 @@
       <updated>1606284992198</updated>
       <workItem from="1606284993695" duration="5737000" />
       <workItem from="1606355749301" duration="9008000" />
-      <workItem from="1606440962662" duration="617000" />
+      <workItem from="1606440962662" duration="2067000" />
     </task>
     <servers />
   </component>
@@ -115,6 +116,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1140" y="397" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606358919244" />
+    <state x="520" y="271" key="run.anything.popup" timestamp="1606441577439">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="520" y="271" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606441577439" />
     <state x="807" y="344" width="672" height="678" key="search.everywhere.popup" timestamp="1606356695032">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
