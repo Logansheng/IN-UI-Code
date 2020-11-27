@@ -5,6 +5,7 @@
       <li>菜单1</li>
       <li>菜单2</li>
     </ul>
+    <span class="toggleAside"><img src="../assets/列表.png"/></span>
   </div>
 </template>
 
@@ -27,6 +28,7 @@ name: "Topnav",
 .topnav {
   background: pink;
   display: flex;
+  justify-items: center;
   padding: 16px;
   position: relative;
   z-index: 10;
@@ -41,6 +43,19 @@ name: "Topnav",
     > li {
       margin: 0 1em;
     }
+  }
+   img{
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    left: 16px;
+    top: 25%;
+    display: none;
+  }
+  @media (max-width: 500px) {
+    > .menu{display:none; }
+    > .logo{margin: 0 auto}
+    img{display: inline-block}
   }
 }
 </style>
