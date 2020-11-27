@@ -30,6 +30,7 @@ name: "Home",
   align-items: center;
   flex-direction: column;
   background: lightgreen;
+  color: #204969;
   > .actions{
     padding: 8px 0;
     a {

@@ -20,12 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db791988-7afa-4559-8314-f5bbb66ad14c" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DialogDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DocDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Vue Single File Component" />
         <option value="TypeScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
