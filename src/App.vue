@@ -4,6 +4,7 @@
 
 <script>
 import {ref,provide} from 'vue'
+import {router} from './router'
 export default {
   name: 'App',
   components: {},
@@ -12,6 +13,10 @@ export default {
     console.log(width)
     const menuVisble = ref(width<=500?false:true)
     provide('xxx',menuVisble)
+    router.afterEach(()=>{
+    if(width<501){ menuVisble.value=false}
+
+    })
   }
 }
 </script>
