@@ -13,7 +13,7 @@ name: "Switch",
   },
   setup(props,context){
     const toggle =()=>{
-      context.emit('input',!props.value)
+      context.emit('update:value',!props.value)
     }
     return {toggle}
   }
@@ -31,21 +31,23 @@ button{
   border-radius: $h / 2;
   position: relative;
   outline: none ;
+  >span{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: $h2;
+    width: $h2;
+    background: white;
+    border-radius: $h2 / 2;
+    transition: left 250ms;//动画效果
+  }
+  &.checked{
+    background: #ff6768;
+  }
+  &.checked > span {
+    left: calc(100% - #{$h2} - 2px);//左移
+  }
 }
-span{
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  height: $h2;
-  width: $h2;
-  background: white;
-  border-radius: $h2 / 2;
-  transition: left 250ms;//动画效果
-}
-button.checked{
-  background: #ff6768;
-}
-button.checked > span {
-  left: calc(100% - #{$h2} - 2px);//左移
-}
+
+
 </style>
