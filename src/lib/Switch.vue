@@ -1,7 +1,7 @@
 <template>
 <div>
   <button @click="toggle" :class="{checked:value}"><span></span></button>
-  <div>当前值：{{value}}</div>
+  <div>当前值:{{value}}</div>
 </div>
 </template>
 
