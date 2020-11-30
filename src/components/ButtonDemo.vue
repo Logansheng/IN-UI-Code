@@ -1,19 +1,24 @@
 <template>
-<div>
   <p>Button组件</p>
   <h1>示例</h1>
-  <Button>点击</Button>
-</div>
+  <div>
+    <Button>点击</Button>
+    <Button theme="button">点击</Button>
+    <Button theme="link">点击</Button>
+    <Button theme="text">点击</Button>
+  </div>
 </template>
 
-<script>
-import Button from '../lib/Button.vue'
+<script lang="ts">
+import Button from '../lib/Button.vue';
+
 export default {
-name: "ButtonDemo",
-  components:{
-  Button
-  }
-}
+  name: 'ButtonDemo',
+  components: {
+    Button
+  },
+
+};
 </script>
 
 <style scoped>
