@@ -1,22 +1,44 @@
 <template>
-  <button class="gulu-button" :class="`theme-${theme}`"><slot></slot></button>
+  <button class="gulu-button" :class="classes">
+    <slot></slot>
+  </button>
 </template>
 
 <script lang="ts">
-
+import {computed} from 'vue';
 export default {
-name: "Button",
-props:{
-  theme:{
-    type:String,
-    default:'button'
-  }
+  name: 'Button',
+  props: {
+    theme: {
+      type: String,
+      default: 'button'
+    },
+    size: {
+      type: String,
+      default: 'normal'
+    },
+    level: {
+      type: String,
+      default: "normal",
+    },
+  },
+    setup(props) {
+      const {theme, size,level} = props;
+      const classes = computed(() => {
+        return {
+          [`gulu-theme-${theme}`]: theme,
+          [`gulu-theme-${size}`]: size,
+          [`gulu-level-${level}`]: level,
+        };
+      });
+      return {classes};
+    }
 
-}
 }
 </script >
 
 <style  lang="scss" scoped>
+$red: red;
 $h: 32px;
 $border-color: #d9d9d9;
 $color: #333;
@@ -36,6 +58,7 @@ $radius: 4px;
   border: 1px solid $border-color;
   border-radius: $radius;
   box-shadow: 0 1px 0 fade-out(black, 0.95);
+  transition: background 250ms;
   & + & {
     margin-left: 8px;
   }
@@ -44,11 +67,92 @@ $radius: 4px;
     color: $blue;
     border-color: $blue;
   }
+
   &:focus {
     outline: none;
   }
+
   &::-moz-focus-inner {
     border: 0;
+  }
+
+  &.gulu-theme-link {
+    border-color: transparent;
+    box-shadow: none;
+    color: $blue;
+
+    &:hover, &:focus {
+      color: lighten($blue, 10%);
+    }
+  }
+
+  &.gulu-theme-text {
+    border-color: transparent;
+    box-shadow: none;
+    color: inherit;
+
+    &:hover, &:focus {
+      background: darken(white, 5%);;
+    }
+  }
+  &.gulu-theme-big {
+
+    font-size: 24px;
+    height: 48px;
+    padding: 0 16px;
+  }
+  &.gulu-theme-small {
+
+    font-size: 12px;
+    height: 20px;
+    padding: 0 4px;
+  }
+  &.gulu-theme-button {
+    &.gulu-level-main {
+      background: $blue;
+      color: white;
+      border-color: $blue;
+      &:hover,
+      &:focus {
+        background: darken($blue, 10%);
+        border-color: darken($blue, 10%);
+      }
+    }
+    &.gulu-level-danger {
+      background: $red;
+      border-color: $red;
+      color: white;
+      &:hover,
+      &:focus {
+        background: darken($red, 10%);
+        border-color: darken($red, 10%);
+      }
+    }
+  }
+  &.gulu-theme-link {
+    &.gulu-level-danger {
+      color: $red;
+      &:hover,
+      &:focus {
+        color: darken($red, 10%);
+      }
+    }
+  }
+  &.gulu-theme-text {
+    &.gulu-level-main {
+      color: $blue;
+      &:hover,
+      &:focus {
+        color: darken($blue, 10%);
+      }
+    }
+    &.gulu-level-danger {
+      color: $red;
+      &:hover,
+      &:focus {
+        color: darken($red, 10%);
+      }
+    }
   }
 }
 </style>
