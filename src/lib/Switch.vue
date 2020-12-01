@@ -38,6 +38,7 @@ $h2: $h - 4px;
     height: $h2;
     width: $h2;
     background: white;
+    box-shadow: 3px 3px 6px -2px #6b778d;
     border-radius: $h2 / 2;
     transition: left 250ms;//动画效果
   }
