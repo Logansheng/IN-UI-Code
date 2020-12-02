@@ -1,11 +1,10 @@
 <template>
   <div class="topnav">
-    <div class="logo" >LOGO</div>
+    <div class="logo" ><strong>IN-UI</strong></div>
     <ul class="menu">
-      <li>菜单1</li>
-      <li>菜单2</li>
+      <li>首页</li>
     </ul>
-    <span class="toggleAside" @click="toggleMenu"><img src="../assets/列表.png"/></span>
+    <span class="toggleAside" @click="toggleMenu" ><img src="../assets/列表.png"/></span>
   </div>
 </template>
 
@@ -25,7 +24,6 @@ name: "Topnav",
 
 <style lang="scss" scoped>
 .topnav {
-  background: #ff6768;
   display: flex;
   justify-items: center;
   padding: 16px;
@@ -37,6 +35,7 @@ name: "Topnav",
   > .logo {
     max-width: 6em;
     margin-right: auto;
+    color: #fff7f7;
   }
   > .menu {
     display: flex;

@@ -24,25 +24,34 @@ name: "Home",
 
 <style  lang="scss" scoped>
 .banner {
-  padding: 100px 0;
+  clip-path: ellipse(80% 60% at 50% 40% );
+  padding: 150px 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #263859;
-  color: #fff7f7;
+  background: radial-gradient(circle, rgba(37,149,247,1) 0%, rgba(115,132,255,1) 100%);
   > .actions{
     padding: 8px 0;
-    a {
+    >a {
       margin:0 8px;
-      background: #6b778d;
+      background: #ffffff;
       display: inline-block;
       $h: 28px;
       height: $h;
       line-height: $h;
       border-radius: $h/2;
       padding: 0 8px;
+      color: #6c7efd;;
   }
 }
+}
+h2,h1{
+  color: #fff7f7;
+
+  }
+h1 {
+  font-size: 100px;
+
 }
 </style>
