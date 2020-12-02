@@ -20,12 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db791988-7afa-4559-8314-f5bbb66ad14c" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/Tab.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Dialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Dialog.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +74,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\my-project\in-ui\src\router" />
       <recent name="D:\my-project\in-ui\src" />
+      <recent name="D:\my-project\in-ui\src\router" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -94,7 +93,8 @@
       <workItem from="1606701092630" duration="18214000" />
       <workItem from="1606787858622" duration="6689000" />
       <workItem from="1606803442450" duration="9464000" />
-      <workItem from="1606818917445" duration="1633000" />
+      <workItem from="1606818917445" duration="3904000" />
+      <workItem from="1606872560027" duration="5468000" />
     </task>
     <servers />
   </component>
@@ -175,12 +175,12 @@
     </state>
     <state x="2440" y="272" key="run.anything.popup/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1606812520751" />
     <state x="520" y="271" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606441577439" />
-    <state x="2728" y="346" width="673" height="680" key="search.everywhere.popup" timestamp="1606813287670">
-      <screen x="1920" y="1" width="1920" height="1040" />
+    <state x="1421" y="383" width="672" height="678" key="search.everywhere.popup" timestamp="1606879390208">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2728" y="346" width="673" height="680" key="search.everywhere.popup/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1606813287670" />
     <state x="646" y="273" width="538" height="538" key="search.everywhere.popup/0.0.1536.824/1920.4.1920.1040@0.0.1536.824" timestamp="1606702957163" />
-    <state x="807" y="344" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606636959617" />
+    <state x="1421" y="383" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606879390208" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

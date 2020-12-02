@@ -88,7 +88,7 @@ aside {
   }
   > ol{
     > li{
-      background: #000;
+
       margin-top: 20px;
       padding: 4px 0;
       color: #fff7f7;
