@@ -1,12 +1,24 @@
 <template>
 <div class="layout">
-  <Topnav class="nav"></Topnav>
+  <Topnav class="nav" toggleMenuButtonVisible></Topnav>
   <div class="topnav">
     <div class="logo"></div>
     <div class="logo"></div>
   </div>
   <div class="content">
     <aside v-if="menuVisible">
+      <h2>DOC</h2>
+      <ol>
+        <li>
+          <router-link to="Intro">介绍</router-link>
+        </li>
+        <li>
+          <router-link to="Install">安装</router-link>
+        </li>
+        <li>
+          <router-link to="GetStarted">开始使用</router-link>
+        </li>
+      </ol>
       <h2>组件列表</h2>
       <ol>
         <li>
@@ -21,6 +33,7 @@
         <li>
           <router-link to="/doc/tabs">Tabs 组件</router-link>
         </li>
+
       </ol>
     </aside>
     <main>
@@ -44,17 +57,21 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 .layout {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  background: #6c7efd;
+
   > .nav {
     flex-shrink: 0;
   }
+
   > .content {
     flex-grow: 1;
     padding-top: 60px;
-    padding-left: 156px;
+    padding-left: 150px;
     @media (max-width: 500px) {
       padding-left: 0;
     }
@@ -66,32 +83,44 @@ export default {
     flex-shrink: 0;
   }
   > main {
-    border: 1px solid red;
     flex-grow: 1;
     padding: 16px;
     background: #fff;
   }
 }
 aside {
-  background: #6b778d;
+  z-index: 1;
+  background: #6c7efd;
   width: 150px;
   position: fixed;
   top: 0;
   left: 0;
-  padding: 70px 16px 16px;
+  padding: 70px 0px 16px;
   height: 100%;
 
+
   > h2 {
-    margin-bottom: 4px;
-    color: #fff7f7;
-
+    padding: 0 16px;
+    margin-buttom: 4px;
+    color: #fff;
   }
-  > ol{
-    > li{
 
-      margin-top: 20px;
-      padding: 4px 0;
-      color: #fff7f7;
+  > ol {
+    margin-top: 10px;
+
+    > li {
+      margin-bottom: 10px;
+      color: #fff;
+      >a{
+        display: block;
+        padding: 4px 16px;
+        text-decoration: none;
+      }
+      > .router-link-active {
+        background: #fff;
+        color: #232949;
+
+      }
     }
   }
 

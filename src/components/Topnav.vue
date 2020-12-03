@@ -1,10 +1,10 @@
 <template>
   <div class="topnav">
-    <div class="logo" ><strong>IN-UI</strong></div>
+    <router-link to="/"  class="logo" ><strong>IN-UI</strong></router-link>
     <ul class="menu">
       <li>首页</li>
     </ul>
-    <span class="toggleAside" @click="toggleMenu" ><img src="../assets/列表.png"/></span>
+    <span  v-if="toggleMenuButtonVisible" class="toggleAside" @click="toggleMenu" ><img src="../assets/列表.png"/></span>
   </div>
 </template>
 
@@ -12,6 +12,12 @@
 import {inject ,Ref} from  'vue'
 export default {
 name: "Topnav",
+  props: {
+    toggleMenuButtonVisible: {
+      type: Boolean,
+      default: false
+    }
+  },
   setup(){
    const menuVisible= inject<Ref<boolean>>('xxx')
    const  toggleMenu =()=>{
@@ -47,8 +53,8 @@ name: "Topnav",
     }
   }
    img{
-    height: 24px;
-    width: 24px;
+    height: 32px;
+    width: 32px;
     position: absolute;
     left: 16px;
     top: 25%;

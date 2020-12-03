@@ -20,9 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db791988-7afa-4559-8314-f5bbb66ad14c" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/src/views/GetStarted.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Install.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Intro.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/列表.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/列表.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +102,8 @@
       <workItem from="1606803442450" duration="9464000" />
       <workItem from="1606818917445" duration="3904000" />
       <workItem from="1606872560027" duration="6232000" />
-      <workItem from="1606890074951" duration="7329000" />
+      <workItem from="1606890074951" duration="8052000" />
+      <workItem from="1606958023432" duration="16562000" />
     </task>
     <servers />
   </component>
@@ -167,15 +175,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="780" y="262" width="728" height="654" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606286373442" />
-    <state x="1140" y="397" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1606358919244">
+    <state x="1140" y="397" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1606962006851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1140" y="397" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606358919244" />
-    <state x="2440" y="272" key="run.anything.popup" timestamp="1606812520751">
-      <screen x="1920" y="1" width="1920" height="1040" />
+    <state x="1140" y="397" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606962006851" />
+    <state x="520" y="271" key="run.anything.popup" timestamp="1606978771144">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2440" y="272" key="run.anything.popup/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1606812520751" />
-    <state x="520" y="271" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606441577439" />
+    <state x="520" y="271" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606978771144" />
     <state x="1421" y="383" width="672" height="678" key="search.everywhere.popup" timestamp="1606879390208">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
