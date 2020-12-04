@@ -10,13 +10,13 @@
       <h2>DOC</h2>
       <ol>
         <li>
-          <router-link to="Intro">介绍</router-link>
+          <router-link to="/doc/Intro">介绍</router-link>
         </li>
         <li>
-          <router-link to="Install">安装</router-link>
+          <router-link to="/doc/Install">安装</router-link>
         </li>
         <li>
-          <router-link to="GetStarted">开始使用</router-link>
+          <router-link to="/doc/GetStarted">开始使用</router-link>
         </li>
       </ol>
       <h2>组件列表</h2>
@@ -78,6 +78,7 @@ export default {
   }
 }
 .content {
+
   display: flex;
   > aside {
     flex-shrink: 0;
