@@ -20,11 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db791988-7afa-4559-8314-f5bbb66ad14c" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Demo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo1.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +101,7 @@
       <workItem from="1606872560027" duration="6232000" />
       <workItem from="1606890074951" duration="8052000" />
       <workItem from="1606958023432" duration="20546000" />
-      <workItem from="1607045831888" duration="14216000" />
+      <workItem from="1607045831888" duration="20093000" />
     </task>
     <servers />
   </component>
@@ -180,12 +182,12 @@
     </state>
     <state x="2440" y="272" key="run.anything.popup/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1606812520751" />
     <state x="520" y="271" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606978771144" />
-    <state x="1248" y="383" width="672" height="678" key="search.everywhere.popup" timestamp="1607070330619">
+    <state x="1248" y="383" width="672" height="678" key="search.everywhere.popup" timestamp="1607079803420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2728" y="346" width="673" height="680" key="search.everywhere.popup/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1606813287670" />
     <state x="646" y="273" width="538" height="538" key="search.everywhere.popup/0.0.1536.824/1920.4.1920.1040@0.0.1536.824" timestamp="1606702957163" />
-    <state x="1248" y="383" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607070330619" />
+    <state x="1248" y="383" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607079803420" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

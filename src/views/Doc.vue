@@ -112,14 +112,32 @@ aside {
     > li {
       margin-bottom: 10px;
       color: #fff;
+      position: relative;
+      overflow: hidden;
+
       >a{
         display: block;
         padding: 4px 16px;
         text-decoration: none;
+        &::after{
+          transform: translateX(100%);
+          transition: all .3s;
+          content: '';
+          display: block;
+          height: 30px;
+          background: #fff;
+          position: absolute;
+          left: 0;
+          top: 0;
+          z-index: -1;
+          width: 100%;
+        }
       }
       > .router-link-active {
-        background: #fff;
         color: #232949;
+        &::after{
+          transform: translateX(0);
+        }
 
       }
     }
