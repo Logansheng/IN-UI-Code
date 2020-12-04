@@ -10,7 +10,7 @@
         <Button>查看代码</Button>
       </div>
       <div class="demo-code">
-        <pre>&lt;Switch v-model:value="bool" /&gt;</pre>
+        <pre>{{SwitchDemo1.__demo}}</pre>
       </div>
     </div>
     <div class="demo">
@@ -22,7 +22,7 @@
         <Button>查看代码</Button>
       </div>
       <div class="demo-code">
-        <pre>&lt;Switch v-model:value="bool" disabled /&gt;</pre>
+        <pre>{{SwitchDemo2.__demo}}</pre>
       </div>
     </div>
   </div>
@@ -33,6 +33,8 @@ import {ref} from  'vue'
 import Button from '../lib/Button.vue';
 import SwitchDemo1 from './SwitchDemo1.vue';
 import SwitchDemo2 from './SwitchDemo2.vue';
+
+console.log(SwitchDemo1.__demo);
 export default {
   components: {
     SwitchDemo2,
@@ -43,7 +45,7 @@ export default {
   setup() {
     const bool = ref(false)
     return {
-      bool
+      bool,SwitchDemo2,SwitchDemo1
     }
   }
 }

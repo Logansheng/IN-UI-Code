@@ -1,7 +1,6 @@
 <template>
 <div>
   <button class="gulu-switch" @click="toggle" :class="{'gulu-checked':value}"><span></span></button>
-  <div>当前值:{{value}}</div>
 </div>
 </template>
 
