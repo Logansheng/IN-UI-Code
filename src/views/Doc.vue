@@ -90,7 +90,7 @@ export default {
   }
 }
 aside {
-  z-index: 1;
+  z-index: 20;
   background: #6c7efd;
   width: 150px;
   position: fixed;

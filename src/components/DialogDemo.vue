@@ -1,41 +1,22 @@
 <template>
-<div>
-  <p>Dialog组件</p>
-  <Dialog v-model:visible="x">
-    <template v-slot:title>
-      标题❤
-    </template>
-    <template v-slot:content>
-      <strong>点击</strong>
-      <div>完成哦🐷</div>
-    </template>
-  </Dialog>
-  <Button @click="toggle">toggle</Button>
-</div>
+  <h1>Dialog 示例</h1>
+  <Demo :component="Dialog1Demo" />
+  <Demo :component="Dialog2Demo" />
 </template>
 
 <script lang="ts">
-import Button from '../lib/Button.vue';
-import Dialog from '../lib/Dialog.vue';
-import {ref} from 'vue';
-
+import Demo from './Demo.vue';
+import Dialog1Demo from './Dialog1.demo.vue';
+import Dialog2Demo from './Dialog2.demo.vue';
 export default {
-  name: 'DialogDemo',
   components: {
-    Button,
-    Dialog
+    Demo
   },
   setup() {
-    const x = ref(false);
-    const toggle = () => {
-      x.value = !x.value;
-      console.log('hi');
-    };
-    return {x, toggle};
+    return {
+      Dialog1Demo,
+      Dialog2Demo
+    }
   }
-};
+}
 </script>
-
-<style scoped>
-
-</style>
