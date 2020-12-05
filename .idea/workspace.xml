@@ -20,27 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db791988-7afa-4559-8314-f5bbb66ad14c" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Button2.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button3.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button4.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button5.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialog1.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialog2.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tabs1.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/openDialog.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Markdown.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DialogDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DocDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button1.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo2.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/get-started.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/get-started.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/install.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/install.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shims-vue.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shims-vue.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +98,8 @@
       <workItem from="1606872560027" duration="6232000" />
       <workItem from="1606890074951" duration="8052000" />
       <workItem from="1606958023432" duration="20546000" />
-      <workItem from="1607045831888" duration="26082000" />
+      <workItem from="1607045831888" duration="26487000" />
+      <workItem from="1607148293916" duration="2323000" />
     </task>
     <servers />
   </component>
@@ -200,11 +184,11 @@
     </state>
     <state x="2440" y="272" key="run.anything.popup/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1606812520751" />
     <state x="520" y="271" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606978771144" />
-    <state x="982" y="374" width="672" height="678" key="search.everywhere.popup" timestamp="1607083498695">
+    <state x="982" y="374" width="672" height="678" key="search.everywhere.popup" timestamp="1607149794064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2728" y="346" width="673" height="680" key="search.everywhere.popup/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1606813287670" />
     <state x="646" y="273" width="538" height="538" key="search.everywhere.popup/0.0.1536.824/1920.4.1920.1040@0.0.1536.824" timestamp="1606702957163" />
-    <state x="982" y="374" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607083498695" />
+    <state x="982" y="374" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607149794064" />
   </component>
 </project>
