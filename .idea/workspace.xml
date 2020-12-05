@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db791988-7afa-4559-8314-f5bbb66ad14c" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdown/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +98,7 @@
       <workItem from="1606958023432" duration="20546000" />
       <workItem from="1607045831888" duration="26487000" />
       <workItem from="1607148293916" duration="3788000" />
-      <workItem from="1607152098078" duration="3559000" />
+      <workItem from="1607152098078" duration="4485000" />
     </task>
     <servers />
   </component>
@@ -134,6 +133,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1101" y="275" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607085863936" />
+    <state x="1299" y="87" key="CommitChangelistDialog2" timestamp="1607156558535">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1299" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607156558535" />
     <state x="2082" y="304" key="EditFileWatcherDialog" timestamp="1606720864140">
       <screen x="1920" y="1" width="1920" height="1040" />
     </state>
