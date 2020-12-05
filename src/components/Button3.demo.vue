@@ -4,9 +4,9 @@
 <template>
 
     <div>
-      <Button level="main">主要按钮</Button>
-      <Button>普通按钮</Button>
-      <Button level="danger">危险按钮</Button>
+      <Button level="main">Import</Button>
+      <Button>Click</Button>
+      <Button level="danger">Danger</Button>
     </div>
 
 </template>

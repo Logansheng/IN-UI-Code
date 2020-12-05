@@ -157,6 +157,7 @@ $radius: 4px;
       }
     }
     &.gulu-level-danger {
+      margin-left: 0;
       color: $red;
       &:hover,
       &:focus {

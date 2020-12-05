@@ -2,8 +2,8 @@
 支持 disabled
 </demo>
 <template>
-  <Button disabled>禁用按钮</Button>
-  <Button theme="link" disabled>禁用链接按钮</Button>
+  <Button disabled>Error</Button>
+  <Button theme="link" disabled>Stop</Button>
   <Button theme="text" disabled>禁用按钮</Button>
 </template>
 

@@ -5,7 +5,10 @@ import {baseParse} from '@vue/compiler-core'
 
 export default {
   plugins: [md()],
+  base:'./',
+  assetsDir:'assets',
   vueCustomBlockTransforms: {
+
     demo: (options) => {
       const { code, path } = options
       const file = fs.readFileSync(path).toString()
