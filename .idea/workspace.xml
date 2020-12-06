@@ -20,8 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db791988-7afa-4559-8314-f5bbb66ad14c" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/rollup.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdown/get-started.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/get-started.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdown/install.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/install.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +43,9 @@
       <list>
         <option value="CSS File" />
         <option value="package.json" />
+        <option value="Vue Single File Component" />
         <option value="TypeScript File" />
         <option value="JavaScript File" />
-        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -98,7 +108,10 @@
       <workItem from="1606958023432" duration="20546000" />
       <workItem from="1607045831888" duration="26487000" />
       <workItem from="1607148293916" duration="3788000" />
-      <workItem from="1607152098078" duration="4485000" />
+      <workItem from="1607152098078" duration="9830000" />
+      <workItem from="1607233385402" duration="607000" />
+      <workItem from="1607234070708" duration="4000" />
+      <workItem from="1607234707222" duration="1054000" />
     </task>
     <servers />
   </component>
@@ -145,22 +158,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="924" y="343" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606359188767" />
-    <state width="889" height="224" key="GridCell.Tab.0.bottom" timestamp="1606285003817">
+    <state width="959" height="430" key="GridCell.Tab.0.bottom" timestamp="1607235761644">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="889" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606285003817" />
-    <state width="889" height="224" key="GridCell.Tab.0.center" timestamp="1606285003816">
+    <state width="959" height="430" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607235761644" />
+    <state width="959" height="430" key="GridCell.Tab.0.center" timestamp="1607235761644">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="889" height="224" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606285003816" />
-    <state width="889" height="224" key="GridCell.Tab.0.left" timestamp="1606285003816">
+    <state width="959" height="430" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607235761644" />
+    <state width="959" height="430" key="GridCell.Tab.0.left" timestamp="1607235761644">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="889" height="224" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606285003816" />
-    <state width="889" height="224" key="GridCell.Tab.0.right" timestamp="1606285003817">
+    <state width="959" height="430" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607235761644" />
+    <state width="959" height="430" key="GridCell.Tab.0.right" timestamp="1607235761644">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="889" height="224" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606285003817" />
+    <state width="959" height="430" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607235761644" />
     <state x="1288" y="244" key="RollbackChangesDialog" timestamp="1607067572436">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
